@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <link
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
@@ -16,9 +16,9 @@
     ></script>
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Document</title>
-</head>
-<body>
- <header>
+  </head>
+  <body>
+    <header>
       <!-- followed the approach in the Whiskey drop project to create the toggle for Mobile-->
       <nav class="navbar navbar-expand-sm navbar-light">
         <a class="navbar-brand" href="#"
@@ -64,46 +64,85 @@
         </div>
       </nav>
     </header>
-    <section>
-    <div class="row">
-    <div class="col-sm-4 recipe-main-image">
-    <img src="assets/images/cooking.jpg" alt="vegetables, fish and meat on chopping board">
-    </div>
-    <div class="col-sm-8 recipe-main-content">
-    <h2 class="section-heading">Recipes</h2>
-    <p>My approach to meal planning is to embrace the cooking aspect as much as possible, experiment with different techniques. You'll surpise yourself how good a cook you actually can be. 
-    I'm never going to force you to eat anything you don't like or enjoy, as that is not sustainable and you'll just revert back to older eating habits</p>
-    <br>
-    <p>Upon signing up to my 'Full time Consultation', youll gain access to endless amounts of easy to follow recipes that fit into your daily nutrional target. I am also available to create personal recipes upon request</p>
-    <br>
-    <p>Eating healthy doesn't have to be boring, you can experiment with everyday spices to create exciting meals</p>
-    </div>
-    </div>
+    <section class="container">
+      <div class="row">
+        <div class="col-sm-4 recipe-main-image">
+          <img
+            class="img-responsive"
+            src="assets/images/cooking.jpg"
+            alt="vegetables, fish and meat on chopping board"
+          />
+        </div>
+        <div class="col-sm-8 recipe-main-content">
+          <h2 class="section-heading">Recipes</h2>
+          <p>
+            My approach to meal planning is to embrace the cooking aspect as
+            much as possible, experiment with different techniques. You'll
+            surpise yourself how good a cook you actually can be. I'm never
+            going to force you to eat anything you don't like or enjoy, as that
+            is not sustainable and you'll just revert back to older eating
+            habits
+          </p>
+          <br />
+          <p>
+            Upon signing up to my 'Full time Consultation', youll gain access to
+            endless amounts of easy to follow recipes that fit into your daily
+            nutrional target. I am also available to create personal recipes
+            upon request
+          </p>
+          <br />
+          <p>
+            Eating healthy doesn't have to be boring, you can experiment with
+            everyday spices to create exciting meals
+          </p>
+        </div>
+      </div>
     </section>
 
-    
     <section>
-    <h3 class="section-sub">Breakfast</h3>
-    <h4>Blueberry Protein Pancakes</h4>
-    <div class="ingredients">
-    <h4>ingredients</h4>
-    <ul>
-    <li>50g oats</li>
-    <li>1 egg</li>
-    <li>1 tsp of honey</li>
-    <li>1 bannana (peeled)</li>
-    <li>10ml low fat milk</li>
-    <li>1/2 tsp of olive oil</li>
-    <li>3 tsb of blueberries to serve on the side</li>
-    <li>1 dallop of 0% fat greek yoghurt</li>
+    <div>
+      <h3 class="section-sub">Breakfast</h3>
+      <h4>Blueberry Protein Pancakes</h4>
+      <div class="ingredients">
+        <h4>ingredients</h4>
+        <ul>
+          <li>50g oats</li>
+          <li>1 egg</li>
+          <li>1 tsp of honey</li>
+          <li>1 bannana (peeled)</li>
+          <li>10ml low fat milk</li>
+          <li>1/2 tsp of olive oil</li>
+          <li>3 tsb of blueberries to serve on the side</li>
+          <li>1 dallop of 0% fat greek yoghurt</li>
+        </ul>
+      </div>
+      <div class="preparation">
+      <h4>Preparation</h4>
+      <ol>
+      <li>Blend the oats eggs, honey, bananas and milk. (if you don't have a processor/blender thats fine, they won''t win any presentation awards but they'll taste as good</li>
+      <li>Combine the pancake mixture with some blueberries and stir</li>
+      <li>Lightly oil the pan, and heat to a medium heat</li>
+      <li>Dallop the pancakes mix using a ladle into even portions on the pan. Cook till brown on each side</li>
+      <li>Serve with 0%fat greek yoghurt and more blueberries.</li>
+      </ol>
+      </div>
+      </div>
+ 
+ <div class="div">
+ <h3 class="section-sub">Lunch</h3>
+ <h4>Chicken Madras</h4>
+ <div class="ingredients">
+ <ul>
+ <li>125g cooked rice</li>
+ <li>150g chicken</li>
+ <li>1/2 tin of chopped tomatoes</li>
 
-    </ul>
-    
-    </div>
-    
+
+ </ul>
+ </div>
+</div>
     </section>
-
- <footer class="container-fluid">
+    <footer class="container-fluid">
       <div class="row">
         <div class="col-sm-4">
           <h6 class="uppercase">Links</h6>
@@ -139,7 +178,7 @@
         </div>
       </div>
     </footer>
-     <script
+    <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
       crossorigin="anonymous"
@@ -153,6 +192,6 @@
       src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"
-    ></script>   
-</body>
+    ></script>
+  </body>
 </html>
