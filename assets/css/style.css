@@ -1,0 +1,159 @@
+
+/*-------------------------------------------------Hero Image*/
+.hero-image {
+
+height: 100vh;
+/*-------------------------------------------------code for hero image taken from ww3 schools*/
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, .3)), url(../images/hero-image.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+
+}
+.cta-button {
+    display: block;
+}
+
+.hero-cta
+{
+position: absolute;
+top: 50%;
+left: 50%;
+color: white;
+text-align: center;
+}
+
+.hero-cta img {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 10px;
+}
+
+
+/*-------------------------------------------------header*/
+
+header {
+    position: relative;
+}
+
+/*-------------------------------------------------footer*/
+
+footer {
+    min-height: 120px;
+    background-color: #f5f2f0;
+}
+
+
+/*-------------------------------------------------navbar*/
+.navbar {
+    margin-bottom: 0;
+    border: 0;
+  
+ 
+    
+}
+
+
+.social-media-links a {
+    margin-bottom: 14px;
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin-bottom: 14px;
+}
+
+/*------------------------------------------------- General padding/margins etc*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.section-heading, .section-sub {
+margin-top: 25px;
+margin-bottom: 40px;
+text-transform: uppercase;
+text-align: center;
+}
+
+
+/*----------------------------------------------- testimonials */
+/* code copied from css-tricks.com */
+
+
+.col-border {
+  border-right: 1px solid #eee;
+}
+
+
+
+
+/*------------------------------------------------- Recipes.html Page etc*/
+
+.recipe-main-image img {
+    width:100%;
+
+}
+
+.recipes li{
+    padding-left: 0;
+}
+
+.recipe-icon {
+    position: absolute;
+    right: 30%;
+} 
+
+
+.about-main-image img {
+width:100%;
+height: auto;
+}
+
+.image-stacked img {
+    width: 100%
+}
+.timeline-item {
+    padding: 4em 2em 0em 2em;
+    position: relative;
+    border-left: 1px solid #eee;
+}
+
+.timeline-item p {
+    padding: 0;
+    margin: 0;
+}
+
+.timeline-item:before {
+    content: attr(data-services);
+    position: absolute;
+    left: 2em;
+    top: 2.5em;
+    display: block;
+    font-weight: 500;
+    font-size: 0.8em;
+}
+
+.timeline-item:after {
+    width: 60px;
+    height: 60px;
+    display: block;
+    top: 2.4em;
+    position: absolute;
+    left: -30px;
+    border-radius: 50%;
+    content: '';
+    background: #eee;
+}
+
+.services-image {
+    width:100%;
+}
+
+.services-container {
+    margin-bottom: 100px;
+}
+
+.services {; 
+}
