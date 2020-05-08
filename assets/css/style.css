@@ -1,34 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600&family=Oswald:wght@200;300;400;500;600;700&family=Pacifico&display=swap');
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
 
 /*-------------------------------------------------Hero Image*/
-.hero-image {
-
+.hero-image-container {
 height: 100vh;
-/*-------------------------------------------------code for hero image taken from ww3 schools*/
+
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, .3)), url(../images/hero-image.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   overflow: hidden;
-
 }
+
+
+
+
 .cta-button {
     display: block;
 }
 
 .hero-cta
 {
+text-align: center;
 position: absolute;
+color: white;
 top: 50%;
 left: 50%;
-color: white;
-text-align: center;
-}
+transform: translate(-50%, -50%) 
+
+} 
 
 .hero-cta img {
     width: 75px;
     height: 75px;
     margin-bottom: 10px;
+    background-color: white;
 }
 
 
@@ -45,23 +56,54 @@ footer {
     background-color: #f5f2f0;
 }
 
-
-/*-------------------------------------------------navbar*/
-.navbar {
-    margin-bottom: 0;
-    border: 0;
-  
- 
-    
-}
-
-
 .social-media-links a {
     margin-bottom: 14px;
     display: block;
     text-decoration: none;
     color: black;
     margin-bottom: 14px;
+}
+
+
+/*-------------------------------------------------navbar*/
+.navbar  {
+    margin-bottom: 0;
+    border: 0;  
+}
+.navbar-container 
+{
+    top: 0;
+    left:0;
+    padding-left:0;
+    padding-right: 0;
+}
+
+.navbar .navbar-brand {
+    font-family: oswald;
+    letter-spacing: 3px;
+
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 480px) {
+  .navbar .navbar-brand {
+  letter-spacing: 0px;
+  }
+}
+
+/*------------------------------------------------- Containers*/
+/*-------------------------------------------------code for hero image taken from ww3 schools*/
+
+.
+.approach-container {
+
+}
+
+.testimonials-container {
+
 }
 
 /*------------------------------------------------- General padding/margins etc*/
