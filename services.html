@@ -71,11 +71,12 @@
           <div class="col-sm-4">
             <img
               class="img-responsive services-image"
-              src="assets/images/consultation-main.jpg"
+              src="assets/images/consultation.jpg"
               alt=""
             />
           </div>
           <div class="col-sm-8">
+            <h2 class="section-heading">Services</h2>
             <ul class="timeline">
               <li>
                 <div class="item">
@@ -85,9 +86,15 @@
                     <p>
                       One hour meeting where we will look into your eating
                       behaviour and future goals and create a personalised plan
-                      for you. €50
-                    </p>
-                       <button tyoe="button" class="btn btn-sm btn-signup">Sign Up</button>
+                      for you. <strong>€50</strong></p>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-signup"
+                      data-toggle="modal"
+                      data-target="#signUpModal"
+                    >
+                      Sign Up
+                    </button>
                   </div>
                 </div>
               </li>
@@ -100,9 +107,12 @@
                       One to one meeting every month, analysis of eating
                       beahaviours, adapting meal plans as needed, weekly weight
                       analysis, 24/7 support and access to unlimited recipes.
-                      €100 month
+                      <strong>€100</strong> per month.
                     </p>
-                    <button tyoe="button" class="btn btn-sm btn-signup">Sign Up</button>
+                    <button tyoe="button" class="btn btn-sm btn-signup" data-toggle="modal"
+                      data-target="#signUpModal">
+                      Sign Up
+                    </button>
                   </div>
                 </div>
               </li>
@@ -119,7 +129,9 @@
                       peformance.
                     </p>
                     <p><em>For more details</em></p>
-<button tyoe="button" class="btn btn-sm btn-contact">Contact PCN</button>
+                    <button tyoe="button" class="btn btn-sm btn-contact">
+                      Contact PCN
+                    </button>
                   </div>
                 </div>
               </li>
@@ -135,7 +147,9 @@
                       workshops and cooking demonstrations
                     </p>
                     <p><em>For more details</em></p>
-                    <button tyoe="button" class="btn btn-sm btn-contact">Contact PCN</button>
+                    <button tyoe="button" class="btn btn-sm btn-contact">
+                      Contact PCN
+                    </button>
                   </div>
                 </div>
               </li>
@@ -181,6 +195,67 @@
         </div>
       </div>
     </footer>
+
+    <!----------------------------------------------------------------------------------------Modal-->
+    <div
+      class="modal fade"
+      id="signUpModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="exampleModalCenterTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalCenterTitle">
+              Pay Securely
+            </h5>
+            
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+            <div class="form-group">
+            <label for="selectService">Select Service</label>
+            <select class="form-control" id="sell" required>
+            <option value="one-to-one">One to One Consultation (€50)</option>
+            <option value="full-plan">Full PCN Nutrition Plan (€100 p/m)</option>
+            </select>
+ </div>
+<div class="form-group">
+  <label for="name">Name:</label>
+  <input type="text" class="form-control" id="name" >
+</div>
+
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleInputEmail1"
+                  aria-describedby="emailHelp"
+                />
+      </div>
+            
+            <div class="form-group">
+              <label for="cardInfo">Card Info</label>
+            <input type="text" class="form-control" id="cardInfo" placeholder="Card Number  MM/YY CVC">
+            </div>
+              </div>
+              <button type="paynow" class="btn btn-primary">Pay Now</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
