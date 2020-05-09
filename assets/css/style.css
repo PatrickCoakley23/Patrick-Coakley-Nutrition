@@ -263,11 +263,28 @@ border-left: 1px solid black;
 }
 .timeline li:hover .item i 
 {
-    background: rgb(47, 255, 64);
+    background: #ff2f39;
 } 
 
 .timeline li .item h3,
 .timeline li .item p {
     margin: 5px;
     padding: 0;
+}
+
+#clipboard {
+    color: rgb(245, 245, 245);
+}
+
+#heart {
+    color: rgb(47, 255, 64);
+}
+
+#football {
+    color: rgb(47, 196, 255);
+
+}
+
+#group {
+    color: rgb(255, 172, 47);
 }
