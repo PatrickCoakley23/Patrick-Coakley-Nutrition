@@ -88,16 +88,25 @@ header {
 
 footer {
     min-height: 120px;
-    background-color: #f5f2f0;
+    background-color: #36454F;
+    color: antiquewhite;
 }
 
-.social-media-links a {
-    margin-bottom: 14px;
-    display: block;
+.social-media-links a 
+{    display: block;
     text-decoration: none;
-    color: black;
-    margin-bottom: 14px;
+    color: antiquewhite;
+  margin-bottom: 14px;
 }
+
+.social-media-links a{
+    transition: all 0.30s ease-in-out;
+}
+ 
+ .social-media-links a:hover {
+   color: #a1720bbb;
+ }
+
 
 
 /*-------------------------------------------------navbar*/
