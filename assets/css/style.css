@@ -177,6 +177,8 @@ height: auto;
 .image-stacked img {
     width: 100%
 }
+/*------ followed css tutorial https://www.youtube.com/watch?v=sWvRIYJZJ-c to create timeline */
+
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
@@ -263,7 +265,7 @@ border-left: 1px solid black;
 }
 .timeline li:hover .item i 
 {
-    background: #ff2f39;
+    background: #f05540ed;
 } 
 
 .timeline li .item h3,
@@ -277,7 +279,7 @@ border-left: 1px solid black;
 }
 
 #heart {
-    color: rgb(47, 255, 64);
+    color: #46b123ed;
 }
 
 #football {
@@ -287,4 +289,25 @@ border-left: 1px solid black;
 
 #group {
     color: rgb(255, 172, 47);
+}
+
+/* ----------------------------------------------------------------- buttons */
+
+.btn-signup {
+    font-weight: bold;
+    width: 120px;
+    border-radius: 18px;
+    background-color:#46b123ed;
+    border-color: #46b123ed;
+    color: white;
+}
+
+.btn-contact {
+    font-weight: bold;
+    width: 120px;
+    border-radius: 18px;
+    background-color:#f05540ed;
+    border-color: #f05540ed;
+    color: white;
+
 }
