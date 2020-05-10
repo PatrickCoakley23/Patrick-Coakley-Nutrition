@@ -5,6 +5,12 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+h1, h2, h3 , h4 {
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 3px;
+}
+
+
 /*-------------------------------------------------Hero Image*/
 .hero-image-container {
 height: 100vh;
@@ -150,14 +156,36 @@ footer {
 /*------------------------------------------------- Containers*/
 /*-------------------------------------------------code for hero image taken from ww3 schools*/
 
-.
-.approach-container {
+.section-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
 
 }
 
-.testimonials-container {
+.our-service-col p {
+        margin-bottom: 50px;
+    text-align: center;
+}
+.approach i {
+    font-size: 1.5em;
+}
+
+.container-wrapper-charoal {
+    background-color: #36454F;
+    color: white;
+}
+
+.testimonials-container h2 
+{
+margin-bottom: 40px;
+}
+
+.testimonials-container p {
+font-size: large;
 
 }
+
+
 
 /*------------------------------------------------- General padding/margins etc*/
 
@@ -165,13 +193,16 @@ footer {
     text-transform: uppercase;
 }
 
-.section-heading, .section-sub {
-margin-top: 25px;
-margin-bottom: 40px;
-text-transform: uppercase;
+.section-header {
+margin-bottom: 10px;
+border-bottom: 0;
 text-align: center;
 }
 
+.section-sub
+{
+text-align: center;
+}
 
 /*----------------------------------------------- testimonials */
 /* code copied from css-tricks.com */
