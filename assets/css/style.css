@@ -15,6 +15,11 @@ h1, h2, h3 , h4 {
   margin-left: 0;
 }
 
+.jumbotron {
+    padding: 0;
+    margin-bottom: 0;
+}
+
 /*-------------------------------------------------Hero Image*/
 .hero-image-container {
 height: 100vh;
@@ -115,8 +120,7 @@ footer {
     min-height: 120px;
     background-color: #36454F;
     color: antiquewhite;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 20px 1rem;
 }
 
 footer h3, a {
@@ -195,9 +199,6 @@ footer hr {
     font-weight: bold;
 }
 
-
-element.style {
-}
 .footer-links a {
     text-decoration: none;
     color: antiquewhite;
@@ -222,15 +223,14 @@ padding: 0;
 
 }
 
-.no-gutters>.col, .no-gutters>[class*=col-] {
-    padding: 0 2rem;
-}
-
 .our-service-col h2 ~ p {
-        margin-bottom: 50px;
+margin-bottom: 50px;
 text-align: center;
 }
 
+.our-service-col p {
+padding: 0 2rem;
+}  
 .approach i {
     font-size: 1.5em;
 }
@@ -269,17 +269,12 @@ text-align: center;
 text-align: center;
 }
 
-.about-main-content {
-    margin-bottom: 20px;
-}
+
 
 .about-main-content  h3 {
     margin-bottom: 20px;
     font-weight: 600;
 }
-
-
-
 /*----------------------------------------------- testimonials */
 /* code copied from css-tricks.com */
 
@@ -289,27 +284,29 @@ text-align: center;
 }
 
 /*---------------------------------------------------- About.html page*/
-
-.image-stacked img {
-    width: 100%
+.about-main-content {
+  padding: 20px 10px
 }
 
-.education-section{
-padding: 3.1rem 1.5rem;
+
+.image-stacked img {
+    width: 111%
+}
+
+.education-section {
+ padding: 1rem;
  background-color: rgba(135, 215, 219, 0.18);
 }
 .sports-section {
-    padding: 3rem 2rem;
+    padding: 1rem;;
     background-color: rgba(236, 40, 37, 0.7);
     color: white;
 }
 
-
 .goals-section {
 background-color: rgba(184, 157, 25, 0.68);
-    padding: 2rem 2rem;
+    padding: 1rem;
 }
-
 
 .about-main-image img {
 width:100%;
@@ -317,10 +314,39 @@ height: auto;
 }
 
 
-.gaa-image {
+.gaa-image img {
     height: fit-content;
-    width: 100%;
+    width: 103%;
 }
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 991px) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+.education-section, .sports-section, .goals-section {
+    padding: 0;
+    padding-left: 1rem;
+    font-size: .95rem;
+}
+.image-stacked img {
+    width: 124%;
+}
+.gaa-image img {
+    height: fit-content;
+    width: 107%;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .about-main-image, 
+    education-section {
+padding: 20px 0;
+    }
+
+    .about-main-image {
+        margin-bottom: 20px;
+    }
+} 
 
 /*------------------------------------------------- Recipes.html Page etc*/
 
