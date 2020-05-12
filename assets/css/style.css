@@ -118,18 +118,18 @@ footer h3, a {
     text-align: right;
 }
 
-.social-media-links a {    
+.social-media-links a, .my-details a {    
     display: block;
     text-decoration: none;
     color: antiquewhite;
   
 }
 
-.social-media-links a{
+.social-media-links a, .my-details a, .footer-links a {
     transition: all 0.30s ease-in-out;
 }
  
- .social-media-links a:hover {
+ .social-media-links a:hover, .my-details a:hover, .footer-links a:hover  {
    color: #a1720bbb;
  }
 
@@ -145,6 +145,8 @@ footer h3, a {
 .my-details {
     text-align: center
 }
+
+
 
 @media (min-width:768px) { hr{ display: none; } }
 
@@ -243,6 +245,10 @@ font-size: large;
 
 .uppercase {
     text-transform: uppercase;
+}
+
+.capitalize {
+    text-transform: capitalize;
 }
 
 .section-header {
