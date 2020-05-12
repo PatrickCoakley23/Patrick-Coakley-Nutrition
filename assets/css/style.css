@@ -58,19 +58,6 @@ height: 100vh;
 */
 
 /*------------------------------------------------- Other Images */
-.services-image {
-    width: 100%;
-    height: 50%;
-    margin: 50px 5px 0px 5px;
-}
-
-
-@media screen and (max-width: 480px) {
-    .services-image
-    {width: 100%;
-    height: auto;
-    }
-}
 
 .btn-cta {
     display: block;
@@ -367,6 +354,27 @@ padding: 20px 0;
 
 /*------ followed css tutorial https://www.youtube.com/watch?v=sWvRIYJZJ-c to create timeline */
 
+/* Services Page */
+
+.services-section {
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+
+.services-image {
+    width: 100%;
+}
+
+
+@media screen and (max-width: 480px) {
+    .services-image
+    {width: 100%;
+    height: auto;
+    padding-bottom: 20px;
+    }
+}
+
 .timeline-item {
     padding: 4em 2em 0em 2em;
     position: relative;
@@ -400,20 +408,9 @@ padding: 20px 0;
     background: #eee;
 }
 
-.services-image {
-    width:100%;
-}
-
-.services-container {
-    margin-bottom: 100px;
-}
-
-
 .timeline {
-    width:90%;
+    width:100%;
     height: auto;
-    margin: 50px auto 0;
-padding: 20px;
 }
 
 .timeline li {
