@@ -366,10 +366,15 @@ padding: 20px 0;
     padding-top: 15px;
 }
 
+.lunch-container, .dinner-container, .breakfast-container  {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
 @media screen and (max-width: 767px) {
    .lunch-container, .dinner-container, .breakfast-container {
        padding-right: 80px;
-       padding-left: 5px;
+       padding-left: .5rem;
    } 
 }
 
@@ -495,6 +500,19 @@ border-left: 1px solid black;
     color: rgb(255, 172, 47);
 }
 
+/* Contact Page */
+
+.contact-header {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.center-form {
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
 /* ----------------------------------------------------------------- buttons */
 
 .btn-signup {
@@ -516,3 +534,9 @@ border-left: 1px solid black;
 
 }
 
+.btn-send {
+    margin-top: 20px;
+    margin-bottom:20px; 
+    background-color: #36454F;
+    color: antiquewhite;
+}
