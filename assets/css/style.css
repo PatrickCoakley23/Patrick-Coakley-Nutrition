@@ -339,18 +339,39 @@ padding: 20px 0;
 
 .recipe-main-image img {
     width:100%;
-
+    padding: 20px 10px;
+    height: fit-content;
 }
 
 .recipes li{
     padding-left: 0;
 }
 
-.recipe-icon {
-    position: absolute;
-    right: 30%;
-} 
 
+.recipe-main-content {
+    padding: 20px 10px;
+}
+
+.lunch-container img {
+    border: 2px solid antiquewhite;
+}
+
+.lunch-container, .dinner-container {
+    padding-top: 35px;
+    padding-bottom:35px;
+}
+
+.breakfast-container {
+    padding-bottom: 35px;
+    padding-top: 15px;
+}
+
+@media screen and (max-width: 767px) {
+   .lunch-container, .dinner-container, .breakfast-container {
+       padding-right: 80px;
+       padding-left: 5px;
+   } 
+}
 
 /*------ followed css tutorial https://www.youtube.com/watch?v=sWvRIYJZJ-c to create timeline */
 
