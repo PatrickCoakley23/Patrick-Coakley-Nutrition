@@ -257,6 +257,10 @@ footer hr {
   border-right: 1px solid #eee;
 }
 
+@media screen and (max-width: 576px) {
+    .col-border { display: none;}
+}
+
 /*-- GENERAL STYLING --*/
 
 .uppercase {
