@@ -172,7 +172,7 @@ footer hr {
   width: 100%;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .footer-links,
   .my-details,
   .social-media-links {
@@ -251,6 +251,10 @@ footer hr {
 
 .col-border {
   border-right: 1px solid #eee;
+}
+
+@media screen and (max-width: 576px) {
+    .col-border { display: none;}
 }
 
 /*-- GENERAL STYLING --*/
