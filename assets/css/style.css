@@ -54,9 +54,7 @@ h4 {
   font-weight: bold;
   width: 110px;
   border-radius: 20px;
- -ms-background-color:#46b123;
   background-color: #46b123ed;
-  -ms-border-color: #46b123;
   border-color: #46b123ed;
 }
 
@@ -87,10 +85,10 @@ h4 {
 /*-- HEADER --*/
 
 header {
-    position: sticky;
-    z-index: 1;
-    background-color: white;
-    top: 0;   
+  position: sticky;
+  z-index: 1;
+  background-color: white;
+  top: 0;
 }
 
 /*-- FOOTER --*/
@@ -103,26 +101,24 @@ footer {
   margin: 0;
 }
 
-@media screen and (min-width: 1672px)
-{
-   .contact4k-footer {
+@media screen and (min-width: 1672px) {
+  .contact4k-footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    }
+  }
 }
 
 @media screen and (min-width: 2294px) {
-   
-    .services4k-footer {
+  .services4k-footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    }
+  }
 }
 
-
-footer h3, a {
+footer h3,
+a {
   margin-bottom: 1rem;
 }
 
@@ -130,7 +126,8 @@ footer h3, a {
   text-align: right;
 }
 
-.social-media-links a, .my-details a {
+.social-media-links a,
+.my-details a {
   display: block;
   text-decoration: none;
   color: antiquewhite;
@@ -139,15 +136,14 @@ footer h3, a {
 .social-media-links a,
 .my-details a,
 .footer-links a {
--ms-transition:  all 0.3s ease-in-out;
-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .social-media-links a:hover,
 .my-details a:hover,
 .footer-links a:hover {
--ms-color: #9e7111;
- color: #a1720bbb;
+  color: #a1720bbb;
 }
 
 .footer-links {
@@ -258,7 +254,9 @@ footer hr {
 }
 
 @media screen and (max-width: 576px) {
-    .col-border { display: none;}
+  .col-border {
+    display: none;
+  }
 }
 
 /*-- GENERAL STYLING --*/
@@ -369,7 +367,8 @@ footer hr {
   border: 2px solid antiquewhite;
 }
 
-.lunch-container, .dinner-container {
+.lunch-container,
+.dinner-container {
   padding-top: 35px;
   padding-bottom: 35px;
 }
@@ -486,7 +485,6 @@ footer hr {
 }
 
 .timeline li:hover .item i {
-  -ms-background:  #f05540;
   background: #f05540ed;
 }
 
@@ -501,7 +499,6 @@ footer hr {
 }
 
 #heart {
--ms-color: #46b123;
   color: #46b123ed;
 }
 
@@ -532,9 +529,7 @@ footer hr {
   font-weight: bold;
   width: 120px;
   border-radius: 18px;
-  -ms-background-color:#46b123;
   background-color: #46b123ed;
-  -ms-border-color: #46b123;
   border-color: #46b123ed;
   color: white;
 }
@@ -543,9 +538,7 @@ footer hr {
   font-weight: bold;
   width: 120px;
   border-radius: 18px;
-  -ms-background-color:#f05540;
   background-color: #f05540ed;
-  -ms-border-color: #f05540;
   border-color: #f05540ed;
   color: white;
 }
@@ -565,4 +558,65 @@ footer hr {
   margin-bottom: 40px;
   background-color: #36454f;
   color: antiquewhite;
+}
+
+/*-- CSS Hack For Microsoft Edge --*/
+
+@supports (-ms-ime-align: auto) {
+  .social-media-links a:hover,
+  .my-details a:hover,
+  .footer-links a:hover {
+    color: #bd8c21;
+  }
+  .btn-contact {
+    border-color: #f05540;
+    background-color: #f05540;
+  }
+  .btn-cta {
+    background-color: #46b123;
+    border-color: #46b123;
+  }
+  .timeline li:hover .item i {
+    -ms-background: #f05540;
+  }
+  #heart {
+    color: #46b123;
+  }
+  .btn-signup {
+    background-color: #46b123;
+    border-color: #46b123;
+  }
+}
+
+_:-ms-lang(x),
+.btn-contact {
+  background-color: #f05540;
+  border-color: #f05540;
+}
+
+/*-- CSS Hack For Internet Explorer --*/
+
+_:-ms-lang(x),
+.social-media-links a:hover,
+.my-details a:hover,
+.footer-links a:hover {
+  color: #bd8c21;
+}
+_:-ms-lang(x),
+.btn-cta {
+  background-color: #46b123;
+  border-color: #46b123;
+}
+_:-ms-lang(x),
+.timeline li:hover .item i {
+  background: #f05540;
+}
+_:-ms-lang(x),
+#heart {
+  color: #46b123;
+}
+_:-ms-lang(x),
+.btn-signup {
+  background-color: #46b123;
+  border-color: #46b123;
 }
