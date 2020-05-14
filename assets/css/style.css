@@ -54,7 +54,9 @@ h4 {
   font-weight: bold;
   width: 110px;
   border-radius: 20px;
+ -ms-background-color:#46b123;
   background-color: #46b123ed;
+  -ms-border-color: #46b123;
   border-color: #46b123ed;
 }
 
@@ -137,13 +139,15 @@ footer h3, a {
 .social-media-links a,
 .my-details a,
 .footer-links a {
-  transition: all 0.3s ease-in-out;
+-ms-transition:  all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
 }
 
 .social-media-links a:hover,
 .my-details a:hover,
 .footer-links a:hover {
-  color: #a1720bbb;
+-ms-color: #9e7111;
+ color: #a1720bbb;
 }
 
 .footer-links {
@@ -251,10 +255,6 @@ footer hr {
 
 .col-border {
   border-right: 1px solid #eee;
-}
-
-@media screen and (max-width: 576px) {
-    .col-border { display: none;}
 }
 
 /*-- GENERAL STYLING --*/
@@ -482,6 +482,7 @@ footer hr {
 }
 
 .timeline li:hover .item i {
+  -ms-background:  #f05540;
   background: #f05540ed;
 }
 
@@ -496,6 +497,7 @@ footer hr {
 }
 
 #heart {
+-ms-color: #46b123;
   color: #46b123ed;
 }
 
@@ -526,7 +528,9 @@ footer hr {
   font-weight: bold;
   width: 120px;
   border-radius: 18px;
+  -ms-background-color:#46b123;
   background-color: #46b123ed;
+  -ms-border-color: #46b123;
   border-color: #46b123ed;
   color: white;
 }
@@ -535,7 +539,9 @@ footer hr {
   font-weight: bold;
   width: 120px;
   border-radius: 18px;
+  -ms-background-color:#f05540;
   background-color: #f05540ed;
+  -ms-border-color: #f05540;
   border-color: #f05540ed;
   color: white;
 }
