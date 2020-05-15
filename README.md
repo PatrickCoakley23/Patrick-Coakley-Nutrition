@@ -178,3 +178,33 @@ The ‘Our Services’ section and the ‘Testimonials Section’ set out to rea
     - On the 'recipe.html' page, the thumbnail images on each recipe slightly pushes the content to be very narrow on mobile view. However, i thought this was a better solution than having no pictures, as i feel recipes without pictures don't work as well. 
 
     ## Deployment 
+    Gitpod was used to develop my project. I could create code and complete some debugging. I was able to run a preview of the website, but nothing here can be seen by the users. This is basically like a demo of what the website will look like without going live.
+    The next step was to commit any significant work and push it to Github. Once in Github, i followed the steps below on how deploy my project. This is where the website goes 'live' and any users who had a link to my project were able to view the site. 
+   
+    ### GitHub Pages
+   
+    The project was deployed to GitHub Pages using the following steps...
+
+    1. Log in to GitHub and locate the [PatrickCoakley23/first-milestone-project]( https://github.com/PatrickCoakley23/first-milestone-project)
+    2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+    4. Under "Source", click the dropdown called "None" and select "Master Branch".
+    5. The page will automatically refresh.
+    6. Scroll back down through the page to locate the now published site [link]( https://patrickcoakley23.github.io/first-milestone-project/index.html) in the "GitHub Pages" section.
+
+
+    ### Making a Local Clone
+
+    1. Log in to GitHub and locate the [PatrickCoakley23/first-milestone-project]( https://github.com/PatrickCoakley23/first-milestone-project)
+    2. Under the repository name, click "Clone or download".
+    3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+    4. Open Git Bash
+    5. Change the current working directory to the location where you want the cloned directory to be made.
+    6. Type git clone, and then paste the URL you copied in Step 3.
+    
+        https://github.com/PatrickCoakley23/first-milestone-project.git
+    
+    7. Press Enter. Your local clone will be created.
+
+    ## CREDITS
+
