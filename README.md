@@ -133,12 +133,12 @@ The ‘Our Services’ section and the ‘Testimonials Section’ set out to rea
 
     ### Languages Used
 
-     - [HTML5]( https://en.wikipedia.org/wiki/HTML5)
-     - [CSS3]( https://en.wikipedia.org/wiki/Cascading_Style_Sheets) 
+    - [HTML5]( https://en.wikipedia.org/wiki/HTML5)
+    - [CSS3]( https://en.wikipedia.org/wiki/Cascading_Style_Sheets) 
 
-     ### Frameworks, Libraries & Programs Used
+    ### Frameworks, Libraries & Programs Used
 
-     1. [Bootstrap 4.4.1:]( https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+    1. [Bootstrap 4.4.1:]( https://getbootstrap.com/docs/4.4/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.</li>
   
     2. [Google Fonts:](https://fonts.google.com/)
@@ -156,7 +156,7 @@ The ‘Our Services’ section and the ‘Testimonials Section’ set out to rea
     6. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
-    ## Testing
+    ## TESTING
 
     I followed a past students testing matrix to design my own table to present my test results in a visually please manner. I created it in excel, and it outlines the various tests i made to ensure the website acted efficiently across various devices and browsers. 
     
@@ -168,4 +168,13 @@ The ‘Our Services’ section and the ‘Testimonials Section’ set out to rea
     -[W3C CSS Validator - Results]( )
 
     ### Further Testing
-    -
+    - The Website was tested on Google Chrome,Internet Explorer, Microsoft Edge, Mozilla Firefox and Safari browsers.
+    - The website was viewed on a variety of devices such as Desktop, Large Monitor, Laptop, iPhone7, iPhone 8 & iPhoneX.
+    - A large amount of testing was done to ensure that all pages were linking correctly.
+    - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
+
+    ### Known bugs
+    - I had to introduce a css hack to change the larger than 6 alphanumeric colours so they worked on Microsoft Edge and Internet Explorer. 
+    - On the 'recipe.html' page, the thumbnail images on each recipe slightly pushes the content to be very narrow on mobile view. However, i thought this was a better solution than having no pictures, as i feel recipes without pictures don't work as well. 
+
+    ## Deployment 
