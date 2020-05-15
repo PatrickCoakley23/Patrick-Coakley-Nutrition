@@ -2,6 +2,8 @@
 
 [view the live project here.](https://patrickcoakley23.github.io/first-milestone-project/index.html)
 
+[View all external resources linked to README.MD file (screenshots/test results etc)]( https://github.com/PatrickCoakley23/first-milestone-project/tree/master/assets/README-files)
+
 I had the challenge of developing a minimum 3 page static front end website for my first milestone project with [Code Institute]( https://codeinstitute.net/). 
 I decided to create a fictitious nutrition company, called Patrick Coakley Nutrition (PCN). I have a keen interest in healthy eating and cooking, so I thought it would be enjoyable to develop a static front-end website on this topic. 
 The purpose of this made up business, is to tackle the problems of the fitness industry
@@ -168,7 +170,7 @@ The key call to actions, PCN hopes to achieve is:
 
     I followed a past students testing matrix to design my own table to present my test results in a visually please manner. I created it in excel, and it outlines the various tests i made to ensure the website acted efficiently across various devices and browsers. 
     
-    The Testing Matrix can be located here - [View]( assets/README-files/Wireframes/pcn-test-matrix.png) 
+    The Testing Matrix can be located here - [View]( assets/README-files/pcn-test-matrix.png) 
 
     The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
