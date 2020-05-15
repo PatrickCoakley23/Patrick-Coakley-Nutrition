@@ -3,18 +3,19 @@
 [view the live project here.](https://patrickcoakley23.github.io/first-milestone-project/index.html)
 
 I had the challenge of developing a minimum 3 page static front end website for my first milestone project with [Code Institute]( https://codeinstitute.net/). 
-I decided to create a fictitious nutrition website called Patrick Coakley Nutrition (PCN). I have a keen interest in healthy eating and cooking, so I thought it would be enjoyable to develop a static front-end website on this topic. 
-The Purpose of this made up business, is to tackle the problems, of the fitness industry/fat loss industry head on. This business doesn’t promise quick fixes or beach body results in 6/8 weeks. 
+I decided to create a fictitious nutrition company, called Patrick Coakley Nutrition (PCN). I have a keen interest in healthy eating and cooking, so I thought it would be enjoyable to develop a static front-end website on this topic. 
+The purpose of this made up business, is to tackle the problems of the fitness industry
+head on. This business doesn’t promise quick fixes or beach body results in 6/8 weeks. 
 PCN is about educating the consumer about nutrition, so overtime they are able to make better more informed food choices in order to achieve their health or performance goals. 
 
-I set out to develop a clean website, with nice imagery and styling, and the right amount of written content so people enjoy visiting the website whilst learning about nutrition and what PCN can do for them.
+I set out to develop a clean website, with nice imagery, styling, and the right amount of written content so people enjoy visiting the website whilst learning about nutrition and what PCN can do for them.
 
 <h2 align="center"><img src="assets/README-files/responsiveness.png" max-width="50%"></h2>
 
 ## USER EXPERIENCE (UX)
 
 Purchasing or deciding to schedule a nutrition consultation is not an impulse decision. 
-Consumers are looking to make a long term change. They need to make an informed decision, in order to feel confident, that they are making the correct decision. 
+Consumers are looking to make a long term change. They need to make an informed decision, in order to feel confident, that they are making the correct choice. 
 By navigating through the website, the user will gain trust with PCN, and recognise the aim is not to over promise and sell them something unrealistic. They will hopefully purchase a consultation or enquire more, before making a purchase. 
 
 The key call to actions, PCN hopes to achieve is:
@@ -74,7 +75,7 @@ The key call to actions, PCN hopes to achieve is:
     
     <b>Charcoal</b> – I used a charcoal background in the ‘Footer’, ‘Our Services’ section and the ‘Lunch’ section. The Charcoal section adds a sense of change to the page and also gives a modern feel when paired with the dominant white background. ‘Antiquewhite’ was used as the font colour, in order to lift the text. 
     
-    <b>Green and Red</b> – The Call to action buttons are either green or red. The green is intended to fit well with the feeling of making a healthy choice. The red was used to convey a sense of urgency. According to [Yahoo] (https://smallbusiness.yahoo.com/advisor/truth-best-worst-call-action-button-colors-website-212506540.html) “Many people make the statement that Red usually goes hand in hand with stop, but studies show it is one of the best colours to use for call to action buttons.”
+    <b>Green and Red</b> – The Call to action buttons are either green or red. The green is intended to fit well with the idea of making a healthy choice. The red was used to convey a sense of urgency. According to a post on [Yahoo]( https://smallbusiness.yahoo.com/advisor/truth-best-worst-call-action-button-colors-website-212506540.html) "Many people make the statement that Red usually goes hand in hand with stop, but studies show it is one of the best colours to use for call to action buttons."
 
     #### List of all the colours used throughout the website: 
     •	#46b123ed (Green)
@@ -107,30 +108,27 @@ The key call to actions, PCN hopes to achieve is:
     ## FEATURES 
     Every page in the PCN website features the same exact 'header' , 'footer' and 'nav'. The only slight variation is in the 'navbar' where each active page contains the class= "active". This slightly changes the boldness of the text, which acts as an indicator to the user to which page they are on. 
 
-    <b>Index.html</b> - The Landed page sets the theme for the layout of the entire website. There is an eye catching hero image, with one clear ‘call to action’, to prompt the user to the service offering provided by PCN. 
-The ‘Our Services’ section and the ‘Testimonials Section’ set out to reassure the user that PCN is not like many of the other disingenuous , misleading companies within the fitness industry. The message is consistent that PCN is about  real, sustainable and long term behavioural and physical changes.
+    ### Index.html
+    - The Landing page sets the theme for the layout of the entire website. There is an eye catching hero image, with one clear ‘call to action’, to prompt the user to the service offering provided by PCN. 
+    - The ‘Our Services’ section and the ‘Testimonials Section’ set out to reassure the user that PCN is not like many of the other disingenuous , misleading companies within the fitness industry. The message is consistent that PCN is about  real, sustainable and long term behavioural and physical changes.
+    - Mobile responsive alterations - The only main difference on mobile, is that one of the ‘Testimonials’ is left out. The reason for this is I didn’t want to overpower the mobile viewer with too much written content.
 
-    Mobile responsive alterations - The only main difference on mobile, is that one of the ‘Testimonials’ is left out. The reason for this is I didn’t want to overpower the mobile viewer with too much written content.
+    ### About.html
+    - I was considering placing the ‘Services’ page as the second page, as users read the website from left to right, and the key return for PCN, is for more users to sign up to a consultation. In the end I decided to place the ‘About’ page here as the user is encouraged to gain increased trust with the PCN brand before signing up. 
+    - I decided to use a lot of imagery in this page, as I didn’t want to bore the user with lots of written content. 
+    - Mobile responsive alterations - Two of the images(GAA and the Stacked image) are hidden from mobile view. In the absence of this images Icons from font awesome are introduced to add a sense of fun to the page.
 
-    <b>About.html</b>
-    I was considering placing the ‘Services’ page as the second page, as users read the website from left to right, and the key return for PCN, is for more users to sign up to a consultation. In the end I decided to place the ‘About’ page here as the user is encouraged to gain increased trust with the PCN brand before signing up. 
-    I decided to use a lot of imagery in this page, as I didn’t want to bore the user with lots of written content. 
+    ### Services.html
+    - The Services page is the main call to action page. We are looking for B2C customers to sign up for a consultation, and B2B customers like sports teams or corporations, to contact us about our service offering. Users who are looking to sign up to a consultation are presented with a modal when they click the ‘sign up’ button, which then prompts them to enter their card details. B2B customers are relocated to the ‘Contact.html’ page upon clicking the ‘Contact PCN’ button.
+    - Mobile responsive alterations - N/A
 
-    Mobile responsive alterations - Two of the images(GAA and the Stacked image) are hidden from mobile view. In the absence of this images Icons from font awesome are introduced to add a sense of fun to the page.
+    ### Recipe.html
+    - The reason for the Recipe page, is to give the user a taste of what content they can expect to gain access to, if they were to sign up to PCN. They are also included on the website, to act as proof that eating healthy food doesn’t have to be boring or tasteless. 
+    - Mobile responsive alterations - N/A
 
-    <b>Services.html</b>
-    The Services page is the main call to action page. We are looking for B2C customers to sign up for a consultation, and B2B customers like sports teams or corporations, to contact us about our service offering. Users who are looking to sign up to a consultation are presented with a modal when they click the ‘sign up’ button, which then prompts them to enter their card details. B2B customers are relocated to the ‘Contact.html’ page upon clicking the ‘Contact PCN’ button.
-    
-    Mobile responsive alterations - N/A
-
-    <b>Recipe.html</b>
-    The reason for the Recipe page, is to give the user a taste of what content they can expect to gain access to, if they were to sign up to PCN. They are also included on the website, to act as proof that eating healthy food doesn’t have to be boring or tasteless. 
-
-    Mobile responsive alterations - N/A
-
-    <b>Contact.html</b>
-    I followed Matt Rudge’s format for creating the Contact Form in the Resume Project as part of the ‘User Centric Frontend Development’ module. 
-    Simply a basic contact page that allows users to get in contact with PCN.
+    ### Contact.html
+    - I followed Matt Rudge’s format for creating the Contact Form in the Resume Project as part of the ‘User Centric Frontend Development’ module. 
+    - Simply a basic contact page that allows users to get in contact with PCN.
 
     ### Future Implementation
     <ol>
@@ -155,7 +153,7 @@ The ‘Our Services’ section and the ‘Testimonials Section’ set out to rea
     - Google fonts were used to import the 'Oswald' font and the 'Open Sans' font into the style.css file which is used on all pages throughout the website.
 
     3. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
+    - Font Awesome was used on throughout the website to add icons for aesthetic and UX purposes.
 
     4.  [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
@@ -174,8 +172,8 @@ The ‘Our Services’ section and the ‘Testimonials Section’ set out to rea
 
     The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-    -[W3C Markup Validator Results]( )
-    -[W3C CSS Validator - Results]( )
+    - [W3C Markup Validator Results]( https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickcoakley23.github.io%2Ffirst-milestone-project%2F)
+    - [W3C CSS Validator - Results]( assets/README-files/Wireframes/css-validator.png)
 
     ### Further Testing
     - The Website was tested on Google Chrome,Internet Explorer, Microsoft Edge, Mozilla Firefox and Safari browsers.
@@ -184,12 +182,12 @@ The ‘Our Services’ section and the ‘Testimonials Section’ set out to rea
     - Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
     ### Known bugs
-    - I had to introduce a css hack to change the larger than 6 alphanumeric colours so they worked on Microsoft Edge and Internet Explorer. 
+    - Some colours with more than 6 alphanumeric colours don't appear on the old versions of Microsoft Edge and Internet Explorer. 
     - On the 'recipe.html' page, the thumbnail images on each recipe slightly pushes the content to be very narrow on mobile view. However, i thought this was a better solution than having no pictures, as i feel recipes without pictures don't work as well. 
 
     ## Deployment 
-    Gitpod was used to develop my project. I could create code and complete some debugging. I was able to run a preview of the website, but nothing here can be seen by the users. This is basically like a demo of what the website will look like without going live.
-    The next step was to commit any significant work and push it to Github. Once in Github, i followed the steps below on how deploy my project. This is where the website goes 'live' and any users who had a link to my project were able to view the site. 
+    Gitpod was used to develop my project. Here i could create code and complete some debugging. Gitpod allows you to run a preview of the website, but nothing here can be seen by the users. This is basically like a demo of what the website will look like without going live.
+    The next step is to commit any significant work and push it to Github. Once in Github, i follow the steps below on how deploy my project. This is where the website goes 'live' and any users who have a link to my project were are to view the site. 
    
     ### GitHub Pages
    
@@ -226,8 +224,6 @@ The ‘Our Services’ section and the ‘Testimonials Section’ set out to rea
     
     - The timeframe I used on the 'services.html' page was inspired by a YouTube tutorial by [Online Tutorials]( https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog) 
     
-    - This blog by Jeff Clayton on [wordpress] ( https://jeffclayton.wordpress.com/2015/04/07/css-hacks-for-windows-10-and-spartan-browser-preview/) was where i found the hack located in my css, to make certain colours appear on Microsoft Edge and Internet Explorer.
-   
     ### Meida
 
     - The PCN logo was created on https://monogramframes.com/
@@ -236,7 +232,7 @@ The ‘Our Services’ section and the ‘Testimonials Section’ set out to rea
 
     - [Font Awesome]( https://fontawesome.com/start) was where i sourced every icon bar the 'Cork Gaa Crest' for the website. 
 
-    - [Twinkl] ( https://www.twinkl.ie/illustration/cork-gaa-crest) was used to source the Cork Gaa Crest used in the 'Testimonials section"
+    - [Twinkl]( https://www.twinkl.ie/illustration/cork-gaa-crest) was used to source the Cork Gaa Crest used in the 'Testimonials section"
 
     ### Content 
     - All content of the website was written by the developer. 
@@ -244,8 +240,8 @@ The ‘Our Services’ section and the ‘Testimonials Section’ set out to rea
     - General lines from [Code Institutes Sample README]( https://github.com/Code-Institute-Solutions/SampleREADME) were used in this README file, for example the 'Deployment' section and the 'Making a Clone' section.
 
     ## ACKNOWLEDGEMENTS
-    - My mentor Precious Ijege, the three mentor sessions were invaluable. He explained every suggestion he made in a clear concise manner, and pointed out bugs i would never have seen. He also stressed, not to hesitate, in messaging him about certain issues related to the project outside of the three mentor sessions. 
+    - My mentor, Precious Ijege was a great help. The three mentor sessions were invaluable. He explained every suggestion in a clear concise manner, and pointed out bugs i would never have seen.
 
-    -  My tutor, Cormac Lawlor was very supportive during the project. Being a past student himself, he was aware certain issues i was facing and was always and hand to offer support. 
+    -  My tutor, Cormac Lawlor was very supportive during the project. Being a past student himself, he was aware of certain issues i was facing and was always at hand to offer support. 
 
     - Brian O' Grady and Matt Rudge's teaching of the 'Love Running', 'Whiskey Drop' and 'Resume' project's were a great aid in developing my website. 
