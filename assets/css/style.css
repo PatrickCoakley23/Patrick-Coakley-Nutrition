@@ -24,7 +24,7 @@ h4 {
 
 /*-- HERO IMAGE --*/
 
-/*-- code for hero image taken from ww3 schools--*/
+/*-- code for full width hero image taken from ww3 schools--*/
 
 .hero-image-container {
   height: 100vh;
@@ -136,8 +136,7 @@ a {
 .social-media-links a,
 .my-details a,
 .footer-links a {
-  transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+ transition: all 0.3s ease-in-out;
 }
 
 .social-media-links a:hover,
@@ -319,7 +318,7 @@ footer hr {
   width: 103%;
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 991px){
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
   .education-section,
   .sports-section,
   .goals-section {
@@ -588,13 +587,13 @@ footer hr {
   }
 }
 
+/*-- CSS Hack For Internet Explorer --*/
+
 _:-ms-lang(x),
 .btn-contact {
   background-color: #f05540;
   border-color: #f05540;
 }
-
-/*-- CSS Hack For Internet Explorer --*/
 
 _:-ms-lang(x),
 .social-media-links a:hover,
