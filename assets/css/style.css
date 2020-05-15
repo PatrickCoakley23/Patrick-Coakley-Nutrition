@@ -24,6 +24,10 @@ h4 {
 
 /*-- HERO IMAGE --*/
 
+.hero-image h1 {
+    display: none;
+}
+
 /*-- code for full width hero image taken from ww3 schools--*/
 
 .hero-image-container {
@@ -55,7 +59,7 @@ h4 {
   width: 110px;
   border-radius: 20px;
   background-color: #46b123ed;
-  border-color: #46b123ed;
+  color: white;
 }
 
 .btn-cta a {
@@ -252,12 +256,6 @@ footer hr {
   border-right: 1px solid #eee;
 }
 
-@media screen and (max-width: 576px) {
-  .col-border {
-    display: none;
-  }
-}
-
 /*-- GENERAL STYLING --*/
 
 .uppercase {
@@ -318,7 +316,7 @@ footer hr {
   width: 103%;
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 991px) {
+@media screen and (min-width: 768px) {
   .education-section,
   .sports-section,
   .goals-section {
@@ -529,7 +527,6 @@ footer hr {
   width: 120px;
   border-radius: 18px;
   background-color: #46b123ed;
-  border-color: #46b123ed;
   color: white;
 }
 
@@ -538,7 +535,6 @@ footer hr {
   width: 120px;
   border-radius: 18px;
   background-color: #f05540ed;
-  border-color: #f05540ed;
   color: white;
 }
 
@@ -557,65 +553,4 @@ footer hr {
   margin-bottom: 40px;
   background-color: #36454f;
   color: antiquewhite;
-}
-
-/*-- CSS Hack For Microsoft Edge --*/
-
-@supports (-ms-ime-align: auto) {
-  .social-media-links a:hover,
-  .my-details a:hover,
-  .footer-links a:hover {
-    color: #bd8c21;
-  }
-  .btn-contact {
-    border-color: #f05540;
-    background-color: #f05540;
-  }
-  .btn-cta {
-    background-color: #46b123;
-    border-color: #46b123;
-  }
-  .timeline li:hover .item i {
-    background: #f05540;
-  }
-  #heart {
-    color: #46b123;
-  }
-  .btn-signup {
-    background-color: #46b123;
-    border-color: #46b123;
-  }
-}
-
-/*-- CSS Hack For Internet Explorer --*/
-
-_:-ms-lang(x),
-.btn-contact {
-  background-color: #f05540;
-  border-color: #f05540;
-}
-
-_:-ms-lang(x),
-.social-media-links a:hover,
-.my-details a:hover,
-.footer-links a:hover {
-  color: #bd8c21;
-}
-_:-ms-lang(x),
-.btn-cta {
-  background-color: #46b123;
-  border-color: #46b123;
-}
-_:-ms-lang(x),
-.timeline li:hover .item i {
-  background: #f05540;
-}
-_:-ms-lang(x),
-#heart {
-  color: #46b123;
-}
-_:-ms-lang(x),
-.btn-signup {
-  background-color: #46b123;
-  border-color: #46b123;
 }

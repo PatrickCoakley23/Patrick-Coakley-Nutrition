@@ -110,7 +110,7 @@
                                             analysis, 24/7 support and access to unlimited recipes.
                                             <strong>€100</strong> per month.
                                         </p>
-                                        <button tyoe="button" class="btn btn-sm btn-signup" data-toggle="modal"
+                                        <button type="button" class="btn btn-sm btn-signup" data-toggle="modal"
                                             data-target="#signUpModal">
                                         Sign Up
                                         </button>
@@ -130,9 +130,7 @@
                                             peformance.
                                         </p>
                                         <p><em>For more details</em></p>
-                                        <button tyoe="button" class="btn btn-sm btn-contact">
-                                        <a href="contact.html"> Contact PCN </a>
-                                        </button>
+                                        <a href="contact.html" class="btn btn-sm btn-contact" role="button"> Contact PCN </a>
                                     </div>
                                 </div>
                             </li>
@@ -148,21 +146,20 @@
                                             workshops and cooking demonstrations
                                         </p>
                                         <p><em>For more details</em></p>
-                                        <button tyoe="button" class="btn btn-sm btn-contact">
-                                        <a href="contact.html"> Contact PCN </a>
-                                        </button>
+                                         <a href="contact.html" class="btn btn-sm btn-contact" role="button"> Contact PCN </a>
                                     </div>
                                 </div>
                             </li>
                         </ul>
                     </div>
                 </div>
+            </section>
         </div>
-        </section>
-        </div>
+        
+        
 
         <!-- FOOTER -->
-        <footer class="container services4k-footer">
+        <footer class="container-fluid services4k-footer">
             <div class="row no-gutters">
                 <div class="col-sm-4 footer-links">
                     <h5 class="uppercase">Links</h5>
@@ -228,8 +225,8 @@
                     <div class="modal-body">
                         <form>
                             <div class="form-group">
-                                <label for="selectService">Select Service</label>
-                                <select class="form-control" id="sell" required>
+                             <label for="selectService">Select Service</label>
+                                <select class="form-control" id="selectService" required size="2">
                                     <option value="one-to-one">One to One Consultation (€50)</option>
                                     <option value="full-plan">Full PCN Nutrition Plan (€100 p/m)</option>
                                 </select>
@@ -239,25 +236,25 @@
                                 <input type="text" class="form-control" id="name" >
                             </div>
                             <div class="form-group">
-                                <label for="exampleInputEmail1">Email address</label>
+                                <label for="inputEmail">Email address</label>
                                 <input
                                     type="email"
                                     class="form-control"
-                                    id="exampleInputEmail1"
-                                    aria-describedby="emailHelp"
+                                    id="inputEmail"
+                                    aria-describedby="inputEmail"
                                     />
                             </div>
                             <div class="form-group">
                                 <label for="cardInfo">Card Info</label>
                                 <input type="text" class="form-control" id="cardInfo" placeholder="Card Number  MM/YY CVC">
                             </div>
-                    </div>
-                    <button type="paynow" class="btn btn-primary">Pay Now</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-        </div>
+                    
+                     <button type="submit" class="btn btn-primary">Pay Now</button>
+                  </form>
+              </div>
+          </div>
+      </div>
+    </div>
         <script
             src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
             integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
