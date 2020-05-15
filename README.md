@@ -9,7 +9,7 @@ PCN is about educating the consumer about nutrition, so overtime they are able t
 
 I set out to develop a clean website, with nice imagery and styling, and the right amount of written content so people enjoy visiting the website whilst learning about nutrition and what PCN can do for them.
 
-<h2 align="center"><img src="assets/images/README-files/responsiveness.png" max-width="50%"></h2>
+<h2 align="center"><img src="assets/README-files/responsiveness.png" max-width="50%"></h2>
 
 ## USER EXPERIENCE (UX)
 
