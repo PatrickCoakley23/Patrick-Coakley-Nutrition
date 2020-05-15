@@ -49,7 +49,7 @@ The key call to actions, PCN hopes to achieve is:
     ### WireFrames
     I used [Balsamic] (https://balsamiq.com/) to build the wireframes. I only created desktop styled wireframes but if I was to do it again I would also create wireframes for mobile viewing.
 
-    The Wireframes for PCN can be viewed here - [PCN WireFrames](href="assets/README-files/wireframes-PCN.pdf")
+    The Wireframes for PCN can be viewed here - [PCN WireFrames]( https://github.com/PatrickCoakley23/first-milestone-project/assets/README-files/wireframes)
 
     ## DESIGN
 
@@ -109,8 +109,6 @@ The ‘Our Services’ section and the ‘Testimonials Section’ set out to rea
     <b>Services.html</b>
     The Services page is the main call to action page. We are looking for B2C customers to sign up for a consultation, and B2B customers like sports teams or corporations, to contact us about our service offering. Users who are looking to sign up to a consultation are presented with a modal when they click the ‘sign up’ button, which then prompts them to enter their card details. B2B customers are relocated to the ‘Contact.html’ page upon clicking the ‘Contact PCN’ button.
     
-    The timeframe I used was inspired by a YouTube tutorial by [Online Tutorials]( https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog) 
-
     Mobile responsive alterations - N/A
 
     <b>Recipe.html</b>
@@ -208,3 +206,34 @@ The ‘Our Services’ section and the ‘Testimonials Section’ set out to rea
 
     ## CREDITS
 
+    ### Code 
+
+    - The full screen hero image code came from this post on [w3 schools]( https://www.w3schools.com/howto/howto_css_hero_image.asp)
+    
+    - Bootsrap 4 - Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+    
+    - The timeframe I used on the 'services.html' page was inspired by a YouTube tutorial by [Online Tutorials]( https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog) 
+    
+    - This blog by Jeff Clayton on [wordpress] ( https://jeffclayton.wordpress.com/2015/04/07/css-hacks-for-windows-10-and-spartan-browser-preview/) was where i found the hack located in my css, to make certain colours appear on Microsoft Edge and Internet Explorer.
+   
+    ### Meida
+
+    - The PCN logo was created on https://monogramframes.com/
+
+    - [Shutterstock]( https://www.shutterstock.com/home) was the source for all the imagery used on the website. 
+
+    - [Font Awesome]( https://fontawesome.com/start) was where i sourced every icon bar the 'Cork Gaa Crest' for the website. 
+
+    - [Twinkl] ( https://www.twinkl.ie/illustration/cork-gaa-crest) was used to source the Cork Gaa Crest used in the 'Testimonials section"
+
+    ### Content 
+    - All content of the website was written by the developer. 
+
+    - General lines from [Code Institutes Sample README]( https://github.com/Code-Institute-Solutions/SampleREADME) were used in this README file, for example the 'Deployment' section and the 'Making a Clone' section.
+
+    ## ACKNOWLEDGEMENTS
+    - My mentor Precious Ijege, the three mentor sessions were invaluable. He explained every suggestion he made in a clear concise manner, and pointed out bugs i would never have seen. He also stressed, not to hesitate, in messaging him about certain issues related to the project outside of the three mentor sessions. 
+
+    -  My tutor, Cormac Lawlor was very supportive during the project. Being a past student himself, he was aware certain issues i was facing and was always and hand to offer support. 
+
+    - Brian O' Grady and Matt Rudge's teaching of the 'Love Running', 'Whiskey Drop' and 'Resume' project's were a great aid in developing my website. 
