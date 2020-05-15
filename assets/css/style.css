@@ -136,7 +136,7 @@ a {
 .social-media-links a,
 .my-details a,
 .footer-links a {
-  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
@@ -319,7 +319,7 @@ footer hr {
   width: 103%;
 }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 991px) and (-webkit-min-device-pixel-ratio: 1) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 991px){
   .education-section,
   .sports-section,
   .goals-section {
@@ -577,7 +577,7 @@ footer hr {
     border-color: #46b123;
   }
   .timeline li:hover .item i {
-    -ms-background: #f05540;
+    background: #f05540;
   }
   #heart {
     color: #46b123;
