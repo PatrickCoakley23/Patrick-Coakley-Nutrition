@@ -49,8 +49,20 @@ The key call to actions, PCN hopes to achieve is:
     ### WireFrames
     I used [Balsamic] (https://balsamiq.com/) to build the wireframes. I only created desktop styled wireframes but if I was to do it again I would also create wireframes for mobile viewing.
 
-    The Wireframes for PCN can be viewed here - [PCN WireFrames]( https://github.com/PatrickCoakley23/first-milestone-project/assets/README-files/wireframes)
+    - Index.html Wireframes 
+    
+        - Hero image wireframe - [view](assets/README-files/Wireframes/hero-wireframe.png)  
+        - Our Services/Testimonials [view]( assets/README-files/Wireframes/promise-wireframe.png)
+        - Entire Index.html wireframe [view]( assets/README-files/Wireframes/index-wireframe.png)
 
+    - About.html Wireframe [view]( assets/README-files/Wireframes/about-wireframe.png)
+
+    - Services.html Wireframe  [view]( assets/README-files/Wireframes/services-wireframe.png)
+
+    - Recipes.html WireFrame  [view]( assets/README-files/Wireframes/recipe-wireframe.png)
+
+    - Contact.html Wireframe  [view]( assets/README-files/Wireframes/contact-wireframe.png)
+    
     ## DESIGN
 
     ### Framework
