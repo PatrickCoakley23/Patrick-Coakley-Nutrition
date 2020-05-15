@@ -168,7 +168,7 @@ The key call to actions, PCN hopes to achieve is:
 
     I followed a past students testing matrix to design my own table to present my test results in a visually please manner. I created it in excel, and it outlines the various tests i made to ensure the website acted efficiently across various devices and browsers. 
     
-    The Testing Matrix can be located here - [View]( ) 
+    The Testing Matrix can be located here - [View]( assets/README-files/Wireframes/pcn-test-matrix.png) 
 
     The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
