@@ -10,7 +10,7 @@ PCN is about educating the consumer about nutrition, so overtime they are able t
 
 I set out to develop a clean website, with nice imagery, styling, and the right amount of written content so people enjoy visiting the website whilst learning about nutrition and what PCN can do for them.
 
-<h2 align="center"><img src="assets/README-files/responsiveness.png" max-width="50%"></h2>
+<h2 align="center"><img src="README-files/responsiveness.png" max-width="50%"></h2>
 
 ## USER EXPERIENCE (UX)
 
@@ -52,17 +52,17 @@ The key call to actions, PCN hopes to achieve is:
 
     - Index.html Wireframes 
     
-        - Hero image wireframe - [view](/workspace/first-milestone-project/Wireframes/hero-wireframe.png)  
-        - Our Services/Testimonials [view](/workspace/first-milestone-project/Wireframes/promise-wireframe.png)
-        - Entire Index.html wireframe [view](/workspace/first-milestone-project/README-files/Wireframes/index-wireframe.png)
+        - Hero image wireframe - [view](Wireframes/hero-wireframe.png)  
+        - Our Services/Testimonials [view](Wireframes/promise-wireframe.png)
+        - Entire Index.html wireframe [view](Wireframes/index-wireframe.png)
 
-    - About.html Wireframe [view](/workspace/first-milestone-project/Wireframes/about-wireframe.png)
+    - About.html Wireframe [view](Wireframes/about-wireframe.png)
 
-    - Services.html Wireframe  [view](/workspace/first-milestone-project/Wireframes/services-wireframe.png)
+    - Services.html Wireframe  [view](Wireframes/services-wireframe.png)
 
-    - Recipes.html WireFrame  [view]( /workspace/first-milestone-project/Wireframes/recipe-wireframe.png)
+    - Recipes.html WireFrame  [view](Wireframes/recipe-wireframe.png)
 
-    - Contact.html Wireframe  [view]( /workspace/first-milestone-project/Wireframes/contact-wireframe.png)
+    - Contact.html Wireframe  [view](Wireframes/contact-wireframe.png)
     
     ## DESIGN
 
@@ -155,7 +155,7 @@ The key call to actions, PCN hopes to achieve is:
         - Google fonts were used to import the 'Oswald' font and the 'Open Sans' font into the style.css file which is used on all pages throughout the website.
 
     3. [Font Awesome:](https://fontawesome.com/)
-    - Font Awesome was used on throughout the website to add icons for aesthetic and UX purposes.
+        - Font Awesome was used on throughout the website to add icons for aesthetic and UX purposes.
 
     4.  [Git](https://git-scm.com/)
         - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
@@ -170,12 +170,12 @@ The key call to actions, PCN hopes to achieve is:
 
     I followed a past students testing matrix to design my own table to present my test results in a visually please manner. I created it in excel, and it outlines the various tests i made to ensure the website acted efficiently across various devices and browsers. 
     
-    The Testing Matrix can be located here - [View](/workspace/first-milestone-project/Testing-Matrix/pcn-test-matrix.png) 
+    The Testing Matrix can be located here - [View](Testing-Matrix/pcn-test-matrix.png) 
 
     The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
     - [W3C Markup Validator Results]( https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickcoakley23.github.io%2Ffirst-milestone-project%2F)
-    - [W3C CSS Validator - Results]( /workspace/first-milestone-project/README-files/Wireframes/css-validator.png)
+    - [W3C CSS Validator - Results]( README-files/Wireframes/css-validator.png)
 
     ### Further Testing
     - The Website was tested on Google Chrome,Internet Explorer, Microsoft Edge, Mozilla Firefox and Safari browsers.
