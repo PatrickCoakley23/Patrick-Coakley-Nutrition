@@ -2,8 +2,6 @@
 
 [view the live project here.](https://patrickcoakley23.github.io/first-milestone-project/index.html)
 
-[View all external resources linked to README.MD file (screenshots/test results etc)]( https://github.com/PatrickCoakley23/first-milestone-project/tree/master/assets/README-files)
-
 I had the challenge of developing a minimum 3 page static front end website for my first milestone project with [Code Institute]( https://codeinstitute.net/). 
 I decided to create a fictitious nutrition company, called Patrick Coakley Nutrition (PCN). I have a keen interest in healthy eating and cooking, so I thought it would be enjoyable to develop a static front-end website on this topic. 
 The purpose of this made up business, is to tackle the problems of the fitness industry
@@ -50,21 +48,21 @@ The key call to actions, PCN hopes to achieve is:
     (<i>reason for ‘contact’ page</i>)
  
     ### WireFrames
-    I used [Balsamic] (https://balsamiq.com/) to build the wireframes. I only created desktop styled wireframes but if I was to do it again I would also create wireframes for mobile viewing.
+    I used [Balsamic]( https://balsamiq.com/) to build the wireframes. I only created desktop styled wireframes but if I was to do it again I would also create wireframes for mobile viewing.
 
     - Index.html Wireframes 
     
-        - Hero image wireframe - [view](assets/README-files/Wireframes/hero-wireframe.png)  
-        - Our Services/Testimonials [view]( assets/README-files/Wireframes/promise-wireframe.png)
-        - Entire Index.html wireframe [view]( assets/README-files/Wireframes/index-wireframe.png)
+        - Hero image wireframe - [view](/workspace/first-milestone-project/Wireframes/hero-wireframe.png)  
+        - Our Services/Testimonials [view](/workspace/first-milestone-project/Wireframes/promise-wireframe.png)
+        - Entire Index.html wireframe [view](/workspace/first-milestone-project/README-files/Wireframes/index-wireframe.png)
 
-    - About.html Wireframe [view]( assets/README-files/Wireframes/about-wireframe.png)
+    - About.html Wireframe [view](/workspace/first-milestone-project/Wireframes/about-wireframe.png)
 
-    - Services.html Wireframe  [view]( assets/README-files/Wireframes/services-wireframe.png)
+    - Services.html Wireframe  [view](/workspace/first-milestone-project/Wireframes/services-wireframe.png)
 
-    - Recipes.html WireFrame  [view]( assets/README-files/Wireframes/recipe-wireframe.png)
+    - Recipes.html WireFrame  [view]( /workspace/first-milestone-project/Wireframes/recipe-wireframe.png)
 
-    - Contact.html Wireframe  [view]( assets/README-files/Wireframes/contact-wireframe.png)
+    - Contact.html Wireframe  [view]( /workspace/first-milestone-project/Wireframes/contact-wireframe.png)
     
     ## DESIGN
 
@@ -126,7 +124,7 @@ The key call to actions, PCN hopes to achieve is:
 
     ### Recipe.html
     - The reason for the Recipe page, is to give the user a taste of what content they can expect to gain access to, if they were to sign up to PCN. They are also included on the website, to act as proof that eating healthy food doesn’t have to be boring or tasteless. 
-    - Mobile responsive alterations - N/A
+    - Mobile responsive alterations - the thumbnail images are removed for mobile view as they inpacted on the readability of the text.
 
     ### Contact.html
     - I followed Matt Rudge’s format for creating the Contact Form in the Resume Project as part of the ‘User Centric Frontend Development’ module. 
@@ -137,45 +135,47 @@ The key call to actions, PCN hopes to achieve is:
     <li>Calorie Calculator – Implement some form of calculator that estimates the number of calories a person needs to consume each day. The user could then identify their calorie needs and simply created a surplus to gain weight or a deficit to lose weight.</li>
     
     <li>Blog – Create a blog page featuring topical nutritional information and also requests from users.</li> 
+    
+    <li>Once i learn Javascript, i plan to make the contact form responsive.</li>
     </ol>
 
     ## TECHNOLOGIES
 
     ### Languages Used
 
-    - [HTML5]( https://en.wikipedia.org/wiki/HTML5)
-    - [CSS3]( https://en.wikipedia.org/wiki/Cascading_Style_Sheets) 
+    - [HTML5]( https://en.wikipedia.org/wiki/HTML5) - is the standard markup language for documents designed to be displayed in a web browser.
+    - [CSS3]( https://en.wikipedia.org/wiki/Cascading_Style_Sheets) - Cascading Style Sheets is a style sheet language used for describing the presentation of a document written in a markup language like HTML.
 
     ### Frameworks, Libraries & Programs Used
 
     1. [Bootstrap 4.4.1:]( https://getbootstrap.com/docs/4.4/getting-started/introduction/)
-    - Bootstrap was used to assist with the responsiveness and styling of the website.</li>
+        - Bootstrap was used to assist with the responsiveness and styling of the website.</li>
   
     2. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Oswald' font and the 'Open Sans' font into the style.css file which is used on all pages throughout the website.
+        - Google fonts were used to import the 'Oswald' font and the 'Open Sans' font into the style.css file which is used on all pages throughout the website.
 
     3. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on throughout the website to add icons for aesthetic and UX purposes.
 
     4.  [Git](https://git-scm.com/)
-    - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
+        - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 
     5. [GitHub:](https://github.com/)
-    - GitHub is used to store the projects code after being pushed from Git.
+        - GitHub is used to store the projects code after being pushed from Git.
 
     6. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+        - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
     ## TESTING
 
     I followed a past students testing matrix to design my own table to present my test results in a visually please manner. I created it in excel, and it outlines the various tests i made to ensure the website acted efficiently across various devices and browsers. 
     
-    The Testing Matrix can be located here - [View]( assets/README-files/pcn-test-matrix.png) 
+    The Testing Matrix can be located here - [View](/workspace/first-milestone-project/Testing-Matrix/pcn-test-matrix.png) 
 
     The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
     - [W3C Markup Validator Results]( https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickcoakley23.github.io%2Ffirst-milestone-project%2F)
-    - [W3C CSS Validator - Results]( assets/README-files/Wireframes/css-validator.png)
+    - [W3C CSS Validator - Results]( /workspace/first-milestone-project/README-files/Wireframes/css-validator.png)
 
     ### Further Testing
     - The Website was tested on Google Chrome,Internet Explorer, Microsoft Edge, Mozilla Firefox and Safari browsers.
@@ -185,7 +185,7 @@ The key call to actions, PCN hopes to achieve is:
 
     ### Known bugs
     - Some colours with more than 6 alphanumeric colours don't appear on the old versions of Microsoft Edge and Internet Explorer. 
-    - On the 'recipe.html' page, the thumbnail images on each recipe slightly pushes the content to be very narrow on mobile view. However, i thought this was a better solution than having no pictures, as i feel recipes without pictures don't work as well. 
+    - On the services page and the contact page, the footer creeps up on the page in large width viewing due to reduced amount of content on these pages.
 
     ## Deployment 
     Gitpod was used to develop my project. Here i could create code and complete some debugging. Gitpod allows you to run a preview of the website, but nothing here can be seen by the users. This is basically like a demo of what the website will look like without going live.
@@ -212,7 +212,7 @@ The key call to actions, PCN hopes to achieve is:
     5. Change the current working directory to the location where you want the cloned directory to be made.
     6. Type git clone, and then paste the URL you copied in Step 3.
     
-        https://github.com/PatrickCoakley23/first-milestone-project.git
+            https://github.com/PatrickCoakley23/first-milestone-project.git
     
     7. Press Enter. Your local clone will be created.
 
@@ -226,7 +226,7 @@ The key call to actions, PCN hopes to achieve is:
     
     - The timeframe I used on the 'services.html' page was inspired by a YouTube tutorial by [Online Tutorials]( https://www.youtube.com/channel/UCbwXnUipZsLfUckBPsC7Jog) 
     
-    ### Meida
+    ### Media
 
     - The PCN logo was created on https://monogramframes.com/
 
@@ -242,8 +242,8 @@ The key call to actions, PCN hopes to achieve is:
     - General lines from [Code Institutes Sample README]( https://github.com/Code-Institute-Solutions/SampleREADME) were used in this README file, for example the 'Deployment' section and the 'Making a Clone' section.
 
     ## ACKNOWLEDGEMENTS
-    - My mentor, Precious Ijege was a great help. The three mentor sessions were invaluable. He explained every suggestion in a clear concise manner, and pointed out bugs i would never have seen.
+    - My mentor, [Precious Ijege]( https://github.com/precious-ijege) was a great help. The three mentor sessions were invaluable. He explained every suggestion in a clear concise manner, and pointed out bugs i would never have seen.
 
-    -  My tutor, Cormac Lawlor was very supportive during the project. Being a past student himself, he was aware of certain issues i was facing and was always at hand to offer support. 
+    -  My tutor, [Cormac Lawlor]( https://github.com/armedcor) was very supportive during the project. Being a past student himself, he was aware of certain issues i was facing and was always at hand to offer support. 
 
-    - Brian O' Grady and Matt Rudge's teaching of the 'Love Running', 'Whiskey Drop' and 'Resume' project's were a great aid in developing my website. 
+    - [Brian O' Grady]( https://www.linkedin.com/in/brian-o-grady-18a2153/?originalSubdomain=ie) and [Matt Rudge's]( https://www.linkedin.com/in/mattrudge73/) teaching of the 'Love Running', 'Whiskey Drop' and 'Resume' project's were a great aid in developing my website. 
