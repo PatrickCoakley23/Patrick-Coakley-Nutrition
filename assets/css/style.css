@@ -175,6 +175,15 @@ footer hr {
   border-top: 2px solid antiquewhite;
   width: 100%;
 }
+@media screen and (min-width: 768px) {
+ .social-media-links h5, a {
+    padding-right: 18px;
+    }
+
+    .footer-links h5, .nav-item {
+    padding-left: 14px;
+    }
+}
 
 @media screen and (max-width: 768px) {
   .footer-links,
@@ -255,6 +264,12 @@ footer hr {
 
 .col-border {
   border-right: 1px solid #eee;
+}
+
+@media screen and (max-width: 576px) {
+    .small-steps-col {
+        margin-bottom: 25px;
+    }
 }
 
 /*-- GENERAL STYLING --*/
@@ -518,14 +533,22 @@ footer hr {
 /*-- CONTACT.HTML --*/
 
 .contact-header {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.form-container h5 {
+    margin-bottom: 30px
 }
 
 .center-form {
   padding-top: 10px;
   margin: 0 auto;
   max-width: 70%;
+}
+
+.form-control {
+    margin-bottom: 10px;
 }
 
 /*-- BUTTONS --*/
