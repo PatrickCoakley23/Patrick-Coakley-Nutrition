@@ -347,7 +347,7 @@ footer hr {
 .sports-section,
 .goals-section {
     padding: 5%;
-}
+ }
 }
 
 @media screen and (max-width: 992px) {
@@ -359,7 +359,7 @@ footer hr {
 
 .recipe-main-image img {
   width: 100%;
-  padding: 20px 10px;
+  padding: 20px 20px 0 0;
   height: fit-content;
 }
 
@@ -393,12 +393,9 @@ footer hr {
   padding-right: 5%;
 }
 
-@media screen and (max-width: 767px) {
-  .lunch-container,
-  .dinner-container,
-  .breakfast-container {
-    padding-right: 97px;
-    padding-left: 0.5rem;
+@media screen and (max-width: 991px) {
+.recipe-main-image img {
+  padding: 20px 20px 0 20px;
   }
 }
 
