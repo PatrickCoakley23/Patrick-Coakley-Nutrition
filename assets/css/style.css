@@ -23,10 +23,10 @@ h4 {
 }
 
 /*-- HERO IMAGE --*/
-#hero-heading { 
-    font-size: 1rem;
-    font-weight: bolder;
-    text-align: center;
+#hero-heading {
+  font-size: 1rem;
+  font-weight: bolder;
+  text-align: center;
 }
 
 /*-- code for full width hero image taken from ww3 schools--*/
@@ -141,7 +141,7 @@ a {
 .social-media-links a,
 .my-details a,
 .footer-links a {
- transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .social-media-links a:hover,
@@ -176,13 +176,15 @@ footer hr {
   width: 100%;
 }
 @media screen and (min-width: 768px) {
- .social-media-links h5, a {
+  .social-media-links h5,
+  a {
     padding-right: 18px;
-    }
+  }
 
-    .footer-links h5, .nav-item {
+  .footer-links h5,
+  .nav-item {
     padding-left: 14px;
-    }
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -267,9 +269,9 @@ footer hr {
 }
 
 @media screen and (max-width: 576px) {
-    .small-steps-col {
-        margin-bottom: 25px;
-    }
+  .small-steps-col {
+    margin-bottom: 25px;
+  }
 }
 
 /*-- GENERAL STYLING --*/
@@ -295,19 +297,19 @@ footer hr {
 /*-- ABOUT.HTML --*/
 
 .education-container h2 {
-    text-align: left;
-    margin-bottom: 20px;
+  text-align: left;
+  margin-bottom: 20px;
 }
 
 .education-section,
 .sports-section,
 .goals-section {
-    padding: 2%;
+  padding: 2%;
 }
 
 .education-image img {
-    width: 100%;
-    height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .image-stacked img {
@@ -324,7 +326,6 @@ footer hr {
 
 .goals-section {
   background-color: rgba(184, 157, 25, 0.68);
- 
 }
 
 .gaa-image img {
@@ -332,20 +333,21 @@ footer hr {
   width: 100%;
 }
 
-.gaa-image, .image-stacked {
-    padding-right: 0;
-    padding-left: 20px;
+.gaa-image,
+.image-stacked {
+  padding-right: 0;
+  padding-left: 20px;
 }
 
 .education-image {
-    padding-left: 0;
-    padding-right: 20px;
+  padding-left: 0;
+  padding-right: 20px;
 }
 
-.sports-container, 
-.goals-container, 
+.sports-container,
+.goals-container,
 .education-container {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 @media screen and (max-width: 768px) {
@@ -359,17 +361,17 @@ footer hr {
   }
 
   .education-section,
-.sports-section,
-.goals-section {
+  .sports-section,
+  .goals-section {
     padding: 5%;
- }
+  }
 }
 
 @media screen and (max-width: 992px) {
- .image-stacked img {
-     height: 219px;
- } 
-} 
+  .image-stacked img {
+    height: 219px;
+  }
+}
 /*-- RECIPES.HTML --*/
 
 .recipe-main-image img {
@@ -409,8 +411,8 @@ footer hr {
 }
 
 @media screen and (max-width: 991px) {
-.recipe-main-image img {
-  padding: 20px 20px 0 20px;
+  .recipe-main-image img {
+    padding: 20px 20px 0 20px;
   }
 }
 
@@ -538,7 +540,7 @@ footer hr {
 }
 
 .form-container h5 {
-    margin-bottom: 30px
+  margin-bottom: 30px;
 }
 
 .center-form {
@@ -548,7 +550,7 @@ footer hr {
 }
 
 .form-control {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 /*-- BUTTONS --*/
