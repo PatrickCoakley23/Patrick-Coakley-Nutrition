@@ -175,7 +175,7 @@ The key call to actions, PCN hopes to achieve is:
     The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
     - [W3C Markup Validator Results]( https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatrickcoakley23.github.io%2Ffirst-milestone-project%2F)
-    - [W3C CSS Validator - Results]( README-files/Wireframes/css-validator.png)
+    - [W3C CSS Validator - Results](README-files/css-validator.png)
 
     ### Further Testing
     - The Website was tested on Google Chrome,Internet Explorer, Microsoft Edge, Mozilla Firefox and Safari browsers.
