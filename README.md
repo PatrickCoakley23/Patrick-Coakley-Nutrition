@@ -1,6 +1,6 @@
 <h1>PCN Patrick Coakley Nutrition</h1>
 
-[view the live project here.](https://patrickcoakley23.github.io/first-milestone-project/index.html)
+[view the live project here.](https://patrickcoakley23.github.io/Patrick-Coakley-Nutrition/)
 
 I had the challenge of developing a minimum 3 page static front end website for my first milestone project with [Code Institute]( https://codeinstitute.net/). 
 I decided to create a fictitious nutrition company, called Patrick Coakley Nutrition (PCN). I have a keen interest in healthy eating and cooking, so I thought it would be enjoyable to develop a static front-end website on this topic. 
